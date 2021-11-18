@@ -1,0 +1,150 @@
+/**
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/
+Description: Astra is fast, fully customizable & beautiful theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL & Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Version: 2.1.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra
+Template: astra
+**/
+
+.col-xl-6.col-md-12.table-width {
+    max-width: fit-content;
+}
+
+/* .col-xl-4.col-md-12.latest-update { */
+/*margin-left: 246px;*/
+/* } */
+
+/*comment style*/
+.comments-area .ast-comment-formwrap input[type="text"],
+.comments-area textarea#comment {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    background: no-repeat center bottom, center calc(100% - 1px);
+    background-size: 0 100%, 100% 100%;
+    transition: background 0s ease-out;
+}
+
+.comments-area .form-submit {
+    margin-bottom: 0;
+    /*margin-left: 572px;*/
+    text-align: right;
+}
+
+.menu-toggle,
+button,
+.ast-button,
+.ast-custom-button,
+.button,
+input#submit,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    color: #fff;
+    background-color: #9ccc65;
+    border-color: #9ccc65;
+}
+
+input#gform_next_button_1_22 {
+    padding: 7px 20px !important;
+    border: 0;
+    background: #fe9c00;
+    color: #fff;
+    border-radius: 5px !important;
+}
+
+span.gform_drop_instructions {
+    color: #333;
+}
+
+input#gform_browse_button_1_34 {
+    border-radius: 5px;
+    border: 0;
+    background: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+.wid-40 {
+    height: 40px;
+}
+
+.media-toolbar-secondary > .media-attachments-filter-heading {
+    display: none;
+}
+
+.revision_file_count,
+.project_count {
+    font-size: 17px;
+    padding: 3px;
+    color: red;
+}
+
+.label.up-o-label {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.media-menu-item {
+    color: #0073aa;
+}
+
+.notification_count {
+    transition: all;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: grow 1s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes grow {
+    0% {
+        color: #fff;
+    }
+
+    100% {
+        color: #62ff00;
+    }
+}
+
+#project_notification_modal {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+#project_notification_modal .modal-content {
+    box-shadow: -1px 0px 54px -1px rgba(71, 108, 92, 0.64);
+    -webkit-box-shadow: -1px 0px 54px -1px rgba(71, 108, 92, 0.64);
+    -moz-box-shadow: -1px 0px 54px -1px rgba(71, 108, 92, 0.64);
+}
+.approval_projects {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.approval_projects strong {
+    font-size: 15px;
+}
+
+#project_notification_modal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.revision_limit_popup {
+    cursor: pointer;
+    color: #4680ff;
+}
